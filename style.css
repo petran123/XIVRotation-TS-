@@ -1,0 +1,69 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #eef;
+}
+
+html, body {
+    background-color: #111212;
+}
+
+input, select, option, optgroup {
+    color: #333;
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 2px 3px 2px 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    max-width: 720px;
+    margin: 140px auto 150px auto;
+    justify-content: space-around;
+}
+
+.rotation-container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.random-btn {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+.random-btn:hover {
+    background-color: #639d;
+    cursor: pointer;
+}
+
+.random-btn:active {
+    background-color: #6396;
+}
+
+.random-btn:focus-visible {
+    outline: none;
+}

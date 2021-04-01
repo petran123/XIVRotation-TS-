@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Sync Rotation Helper</title>
+    <script src="./dist/require.js" data-main="dist/main"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container" style="width:1280px; margin: auto">
+        <h1 class="centered-text">Select job and content level</h1>
+        <div class="input-container">
+            <input class="random-btn" type="button" value="Random Job" id="random-job">
+            <label>Job:
+                <select name="job" id="job" style="width:200px">
+                    <optgroup label="Tanks">
+                        <option value="PLD" selected>Paladin</option>
+                        <option value="WAR">Warrior</option>
+                        <option value="DRK">Dark Knight</option>
+                        <option value="GNB">Gunbreaker</option>
+                    </optgroup>
+                    <optgroup label="Healers">
+                        <option value="WHM">White Mage</option>
+                        <option value="SCH">Scholar</option>
+                        <option value="AST">Astrologian</option>
+                    </optgroup>
+                    <optgroup label="Melee">
+                        <option value="MNK">Monk</option>
+                        <option value="DRG">Dragoon</option>
+                        <option value="NIN">Ninja</option>
+                        <option value="SAM">Samurai</option>
+                    </optgroup>
+                    <optgroup label="Ranged">
+                        <option value="BRD">Bard</option>
+                        <option value="MCH">Machinist</option>
+                        <option value="DNC">Dancer</option>
+                    </optgroup>
+                    <optgroup label="Casters">
+                        <option value="BLM">Black Mage</option>
+                        <option value="SMN">Summoner</option>
+                        <option value="RDM">Red Mage</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <label>Level:
+                <input type="number" name="level" id="level" min="1" max="80" value="18">
+            </label>
+        </div>
+
+        <div id="rotation" class="rotation-container">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

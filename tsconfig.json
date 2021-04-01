@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noImplicitAny": true,
+        "module": "amd",
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "removeComments": false,
+    }
+}
