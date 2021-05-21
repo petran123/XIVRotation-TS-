@@ -1,6 +1,6 @@
 # XIVRotation
 
-A simple tool that displays the most efficient roation for the appropriate level.
+A simple tool for Final Fantasy XIV that displays the most efficient roation for the appropriate level.
 
 <h2>Next steps:</h2>
 <ul>
