@@ -60,10 +60,11 @@ export class Tanks {
             [1, "<h2>Always</h2><p>Hard Slash</p>"],
             [2, "<h2>Always</h2><p>Hard Slash -&gt; Syphon Strike</p>"],
             [6, "<h2>2+</h2><p>Unleash</p>"
-                + "<h2>1</h2><p>Hard Slash -&gt); Syphon Strike</p>"],
+                + "<h2>1</h2><p>Hard Slash -&gt; Syphon Strike</p>"],
             [26, "<h2>3+</h2><p>Unleash</p>"
                 + "<h2>2</h2><p>both Souleater and Unleash do the same damage, pick according to GCDS left</p>"
                 + "<h2>1</h2><p>Souleater</p>"],
+            [30, "<h2>wip</h2>"],
         ])
     )();
 
