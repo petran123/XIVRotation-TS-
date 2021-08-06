@@ -1,5 +1,5 @@
-import { RotationPlanner } from "./RotationPlanner";
-import { Job } from "./Job";
+import { RotationPlanner } from "./RotationPlanner.js";
+import { Job } from "./Job.js";
 
 const rotationPlanner: RotationPlanner = ( () => {
     const rotationDiv = document.getElementById("rotation") as HTMLDivElement;

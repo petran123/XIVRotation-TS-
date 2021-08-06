@@ -1,5 +1,5 @@
-import { Job } from "./Job";
-import { JobRotations } from "./customTypes";
+import { Job } from "./Job.js";
+import { JobRotations } from "./customTypes.js";
 
 export class RotationPlanner {
 

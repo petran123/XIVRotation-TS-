@@ -1,4 +1,4 @@
-import { JobRotation } from "./customTypes";
+import { JobRotation } from "./customTypes.js";
 
 export class Melee {
     private static readonly _MNK: JobRotation = (

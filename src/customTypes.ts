@@ -1,8 +1,8 @@
-import { Tanks } from "./Tanks";
-import { Healers } from "./Healers";
-import { Melee } from "./Melee";
-import { Ranged } from "./Ranged";
-import { Casters } from "./Casters";
+import { Tanks } from "./Tanks.js";
+import { Healers } from "./Healers.js";
+import { Melee } from "./Melee.js";
+import { Ranged } from "./Ranged.js";
+import { Casters } from "./Casters.js";
 
 export type JobRotation = Map<number, string>;
 

@@ -1,4 +1,4 @@
-import { JobRotation } from "./customTypes";
+import { JobRotation } from "./customTypes.js";
 
 export class Casters {
     private static readonly _BLM: JobRotation = (
